@@ -1,0 +1,20 @@
+[database]
+username = "root"
+password = "123456"
+host = "localhost"
+database = "hash"
+port = "3306"
+debug = false
+[redis]
+host = "127.0.0.1"
+db = "4"
+port = "6379"
+maxidle =1
+maxactive = 10
+[base]
+session_key = "87e911bf-1341-49fd-adb4-d42b9aee1b15"
+secret = "87e911bf-1345-49fd-adb4-d42b9aee1b15"
+admin_secret = "87e911bf-1365-49fd-adb4-d42b9aee1b15"
+websocket_port = "12345"
+[web]
+port = "9191"
